@@ -1,0 +1,89 @@
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .85);
+    background-color: rgba(0, 0, 0, .85);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #c5b358;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+        .resnamenav{
+          font-family: Cormorant;
+          font-size: x-large;
+        }
+        .resname{
+          font-family: Cormorant;
+          font-size:large;
+        }
+        .carousel-caption{
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+          font-size: 40px ;
+          font-weight: bold;
+        }
+        .card-body{
+         font-family:  'Times New Roman', Times, serif;
+         font-size: 25px;
+        }
+        .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+        .site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    height: 1.7cm;
+  }
+  .site-header a {
+    color: #818181;
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: #c5b358;
+    text-decoration: none;
+  }
+  .btn-outline-secondary:hover {
+      background-color: rgba(0, 0, 0, .85);
+      color: #c5b358;
+  }
+  .footer{background-color: rgba(0, 0, 0, .85);
+  color: #818181}
